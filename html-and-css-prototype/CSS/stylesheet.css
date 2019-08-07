@@ -90,7 +90,7 @@ h1 {
 	border-bottom: 1px solid #eaeaea;
 	border-right: 1px solid #eaeaea;
 	border-left: 1px solid #eaeaea;
-    padding: 20px;
+  padding: 20px;
 	position: relative;
 	right: -186px;
 	/* Somehow, the code messed up and this class shifted out of the container. Position and right put it back within the container. */
