@@ -40,3 +40,129 @@ h1 {
 */
 
 /* Your CSS code goes here */
+
+
+.bubble {
+	width: 260px;
+	margin: 10px auto;
+	background-color: #424242;
+	padding: 10px;
+	text-align: center;
+	font-size: 14px;
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-sarif;
+	color: #fff;
+	position: relative;
+	border-radius: 3px;
+}
+
+.triangle-down {
+	width: 0;
+	height: 0;
+	position: relative;
+	top: -12px;
+	right: -405px;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 10px solid #424242;
+}
+
+.progress {
+/*	used this color to match the prototype */
+	background-color: #fafafa;
+	width: 261px;
+	border: 1px solid #eaeaea;
+	margin: auto;
+}
+
+.bar {
+	width: 190px;
+	border: 1px solid #ef5f3c;
+	background-color: #ef5f3c;
+	padding: 4px;
+}
+
+.orange-text {
+	color: #ef5f3c;
+}
+
+.info {
+	width: 260px;
+	border-bottom: 1px solid #eaeaea;
+	border-right: 1px solid #eaeaea;
+	border-left: 1px solid #eaeaea;
+    padding: 20px;
+	position: relative;
+	right: -186px;
+	/* Somehow, the code messed up and this class shifted out of the container. Position and right put it back within the container. */
+}
+
+.donation {
+	display: flex;
+	justify-content: space-between;
+}
+
+.donation button {
+	background-color: #1cbc2c;
+	border: none;
+	border-radius: 4px;
+	color: white;
+	text-align: center;
+	font-family: "rooney-web", "AmericanTypewriter", Rockwell, serif;
+	font-size: 14px;
+	display: inline-block;
+	padding: 10px 24px;
+	margin-top: 5px;
+	margin-left: 2px;
+	margin-bottom: 2px;
+}
+
+.donation input {
+	height: 48px;
+	width: 100px;
+	margin-top: 5px;
+	border-radius: 4px;
+	border: 1px solid #eaeaea;
+}
+
+input::placeholder{
+	font-size: 15px;
+	font-weight: bold;
+	color: #424242;
+}
+
+.donation_info {
+	color: #777;
+	font-size: 14px;
+	text-align: left;
+	line-height: 1.5em;
+	padding: 5px 5px 5px 5px;
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+.donation_info_2{
+	color: #20a1d4;
+	font-style: italic;
+	font-size: 12px;
+	text-align: left;
+	padding-top: 4px;
+}
+
+.btns_container {
+	display: flex;
+	justify-content: center;
+}
+
+.bottom {
+	/* I used a different color to match the prototype */
+	background-color: #fcfcfc;
+	color: #777;
+	padding: 10px 22px;
+	margin: 10px;
+	border: 1px solid #eaeaea;
+	border-radius: 5px;
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
